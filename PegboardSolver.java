@@ -1,6 +1,11 @@
+/*
+ * This class can solve any pegboard by brute forcing all possible moves
+ */
+
 import java.util.Collection;
 import java.util.List;
 import java.util.ArrayList;
+
 public class PegboardSolver
 {
     public static boolean isWinnable(Pegboard pb) {
